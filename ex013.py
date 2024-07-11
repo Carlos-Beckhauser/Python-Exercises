@@ -1,0 +1,5 @@
+func = input("Qual nome do Funcionário: ")
+sal = float(input("Digite o salário do Funcionário {}: R$ ".format(func)))
+sal_novo = sal+ (sal * 0.15)
+print("O funcionario '{}' tem um salário de: R${:.2f}".format(func, sal))
+print("O funcionario '{}' teve um acréscimo de 15% em seu salário. Seu Salário agora é: R${:.2f}".format(func, sal_novo))
