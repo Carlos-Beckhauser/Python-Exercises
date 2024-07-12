@@ -1,0 +1,10 @@
+import random
+nome1 = input("Digite o nome do 1º aluno: ")
+nome2 = input("Digite o nome do 2º aluno: ")
+nome3 = input("Digite o nome do 3º aluno: ")
+nome4 = input("Digite o nome do 4º aluno: ")
+nomes = (nome1, nome2, nome3, nome4)
+rand = random.choice(nomes)
+print("Os alunos selecionados são: {}, {}, {}, {}.".format(nome1, nome2, nome3, nome4))
+print("-" * 30)
+print("Por meio de sorteio o professor selecionou o aluno: {}".format(rand))
